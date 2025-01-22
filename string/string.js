@@ -63,10 +63,10 @@ function practice(){
     // document.write(arr[5]);
 
     //indexof method......
-    // document.write(a.indexOf( ))
+    // document.write(a.indexOf("t"))
 
     //replace....
-    let abc="Cybrom is located at cybrom and Cybrom is good"
+    // let abc="Cybrom is located at cybrom and Cybrom is good"
     // document.write(abc.replace("Cybrom","MP NAGAR"))       
     // document.write(abc.replace(/Cybrom/gi,"MP NAGAR"))   //g = global //i = case sensitve   
 
