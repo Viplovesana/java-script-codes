@@ -76,3 +76,12 @@ function practice(){
 
 }
 
+//uppercae and lower case..........
+function viplove(){
+
+    let a = "hello my name is viplove sana"
+
+    document.write(a.toUpperCase  ())
+
+}
+viplove()
