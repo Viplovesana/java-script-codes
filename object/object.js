@@ -1,22 +1,22 @@
 
 
 
-let to ="i am viplove sana "  //string
+// let to ="i am viplove sana "  //string
 
-let ok = ["viplove",23,"bhopal"]//array
+// let ok = ["viplove",23,"bhopal"]//array
 
-//object = key:"value"
+// //object = key:"value"
 
-let obj = {
+// let obj = {
 
-    name:"viplove",
-    age:23,
-    city:"bhoplal",
-    hobby:["reading","coding","dancing"],
-    greeting:function(){
-        console.log(` hello i am ${this.name} and i am ${this.age} year old`);
-    }
-}
+//     name:"viplove",
+//     age:23,
+//     city:"bhoplal",
+//     hobby:["reading","coding","dancing"],
+//     greeting:function(){
+//         console.log(` hello i am ${this.name} and i am ${this.age} year old`);
+//     }
+// }
 
 // console.log(obj);//to acces the object...
 
@@ -24,8 +24,82 @@ let obj = {
 
 // obj.age=24//to increase age in the key
 
+
 // delete obj.city//to delete the key from the object 
 
 // console.log(obj.hobby[1]);//to add array in object
 
-obj.greeting();
+// obj.greeting();
+
+// const student= {
+
+//     name:"viplove",
+//     age:23,
+//     city:"bhoplal",
+//     hobby:["reading","coding","dancing"],
+
+// };
+
+// function destructuring{
+
+
+// const {name,age} = student;
+
+// console.log(age);
+// }
+
+
+
+//.........spread......>>.......to combine two or more objects.. 
+
+// function spr(){
+
+
+
+// const student1 = {name:"viplove",age:"23"};
+// const student2 ={city:"new york",grade:"a"};
+
+// const combinedstudent = {...student1,...student2};
+
+// console.log(combinedstudent);
+
+// }
+// spr();
+
+
+// //........normal fuction...//
+
+// function okk(){
+
+//     console.log("normal fuction")
+// }okk();
+
+//.......anonymous funtion.........//
+
+let go =function(){
+    console.log("anonymous fuction")
+
+}
+go()
+
+
+// //......IIFE.......//immidiatly invoke function expression  
+
+(
+
+    function(){
+
+        console.log("IIFE")
+
+    }
+)()
+
+
+//............Arrow function...../
+
+let arr = ()=>{
+
+    console.log("Arrow function")
+
+}
+arr()
