@@ -72,6 +72,15 @@ function practice(){
 
     
 
+function viplove(){
+
+    let a = "Javascript is fun ,but javascript can be challenging."
+
+    document.write(a.replace(/Javascript/gi,"programming"))
+      
+} 
+viplove()
+
 
 
 }
