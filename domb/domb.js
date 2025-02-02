@@ -49,6 +49,25 @@
 // }
 
 
+
+
+function viplove(){
+
+  let box = document.querySelector('#box')
+
+   box.style.backgroundColor='green'
+
+}
+
+function viplovesana(){
+
+  let box = document.querySelector('#box')
+
+   box.style.backgroundColor='orange'
+
+}
+
+
 function temp() {
   // backtick  (``)  Template literals
   //supports single quotes and single quotes
@@ -63,4 +82,7 @@ function temp() {
   let text1 = my name is ${name} and I am ${age} year old;
   console.log(text1);
 
+
+
 }
+

@@ -36,3 +36,10 @@ let fruits=["banaana","mango","apple","papaya"]
 let numbers = [3,7,1,9,2];
 
 document.write(numbers.sort().reverse())//dessending..
+
+
+//que you have follwing array.....//
+
+let numbers = [3,7,1,9,2];
+
+document.write(numbers.sort().reverse())//dessending..
