@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(174, 174, 174);
+}
+table{
+    margin-top: 7%;
+    background:rgb(61, 67, 74);
+}
+.green{
+    color: rgb(127, 255, 172);
+}
+.white{
+    color: white;
+}
+.orange{
+    background: orange;
+    color: white;
+}
+td{
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+#equals{
+    color: aquamarine;
+
+}
+#display{
+    padding-top: 40px;
+    background-color: rgb(107, 105, 105);
+}
