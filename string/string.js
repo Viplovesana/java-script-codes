@@ -20,7 +20,7 @@
 // document.write(a.toUpperCase())
 // document.write(a2.toLocaleLowerCase())
 
-//slice..
+//slice.. 
 // document.write(a2.slice(3,9))
 
 //homework.trim ..charat..charcodeat...split....indexof()
@@ -41,7 +41,7 @@ function practice(){
     // document.write(a.concat(b,c)) //addition of one or two 
 
     //slice.....
-    // document.write(a.slice(3,9)) //indexing no
+    document.write(a.slice(3,9)) //indexing no
 
     //uppercase and lower case.........
     // document.write(a.toUpperCase())
@@ -51,7 +51,7 @@ function practice(){
     // console.log(a)//it can trim extra white space the start and end words...
 
     //charat....
-    // document.write(a.charAt(4))//it can print particular character by the no..
+    // document.write(a.charAt(5))//it can print particular character by the no..
 
     ///charcodeat....
     
@@ -62,39 +62,39 @@ function practice(){
     // console.log(b.split("&"))
     // document.write(arr[5]);
 
-    //indexof method......
-    // document.write(a.indexOf("t"))
+    //indexof method...... 
+    document.write(a.indexOf("t"))
 
     //replace....
-    // let abc="Cybrom is located at cybrom and Cybrom is good"
-    // document.write(abc.replace("Cybrom","MP NAGAR"))       
-    // document.write(abc.replace(/Cybrom/gi,"MP NAGAR"))   //g = global //i = case sensitve   
+   //g = global //i = case sensitve   
 
     
 
-function viplove(){
+// function viplove(){
 
-    let a = "Javascript is fun ,but javascript can be challenging."
+//     let a = "Javascript is fun ,but javascript can be challenging."
 
-    document.write(a.replace(/Javascript/gi,"programming"))
+//     document.write(a.replace(/Javascript/gi,"programming"))
       
-} 
-viplove()
+// } 
+// viplove()
 
 
+
+// }
+
+// //uppercae and lower case..........
+// function viplove(){
+
+//     let a = "hello my name is viplove sana"
+
+//     document.write(a.toUpperCase  ())
+
+// }
+// viplove()
+
+
+// let text = `hello world`
 
 }
-
-//uppercae and lower case..........
-function viplove(){
-
-    let a = "hello my name is viplove sana"
-
-    document.write(a.toUpperCase  ())
-
-}
-viplove()
-
-
-let text = `hello world`
  

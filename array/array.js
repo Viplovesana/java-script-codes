@@ -1,11 +1,14 @@
 
 
-let fruits=["banaana","mango","apple","papaya"]
+// let fruits=["banaana","mango","apple","papaya"]
 
 // document.write(fruits.length);
 
 // fruits.pop()
-// document.write(fruits)//pop removes the last element
+// document.write(fruits.pop())//pop removes the last element
+
+//push....
+// document.write(fruits.push("grapes"))
 
 // fruits.shift()
 // document.write(fruits)
@@ -27,19 +30,19 @@ let fruits=["banaana","mango","apple","papaya"]
 // let abc=[2,6,1,8,4,9,7]
 // document.write(abc.sort())//assending..
 
-// let abc=[2,6,1,8,4,9,7]
-// document.write(abc.sort().reverse())//dessending..
+let abc=[2,6,1,8,4,9,7]
+document.write(abc.sort().reverse())//dessending..
 
 
 //que you have follwing array.....//
 
-let numbers = [3,7,1,9,2];
+// let numbers = [3,7,1,9,2];
 
-document.write(numbers.sort().reverse())//dessending..
+// document.write(numbers.sort().reverse())//dessending..
 
 
 //que you have follwing array.....//
 
-let numbers = [3,7,1,9,2];
+// let numbers = [3,7,1,9,2];
 
-document.write(numbers.sort().reverse())//dessending..
+// document.write(numbers.sort().reverse())//dessending..
