@@ -1,24 +1,21 @@
 
 
+ 
 
-// let to ="i am viplove sana "  //string
+//object = key:"value"
 
-// let ok = ["viplove",23,"bhopal"]//array
+let obj = {
 
-// //object = key:"value"
+    name:"viplove",
+    age:23,
+    city:"bhoplal",
+    hobby:["reading","coding","dancing"],
+    greeting:function(){
+        console.log(` hello i am ${this.name} and i am ${this.age} year old`);
+    }
+}
 
-// let obj = {
-
-//     name:"viplove",
-//     age:23,
-//     city:"bhoplal",
-//     hobby:["reading","coding","dancing"],
-//     greeting:function(){
-//         console.log(` hello i am ${this.name} and i am ${this.age} year old`);
-//     }
-// }
-
-// console.log(obj);//to acces the object...
+// console.log(obj); //to acces the object...
 
 // obj.hobby="reading"//to add additional key value in the object
 
@@ -27,7 +24,7 @@
 
 // delete obj.city//to delete the key from the object 
 
-// console.log(obj.hobby[1]);//to add array in object
+console.log(obj.hobby[1]);//to add array in object
 
 // obj.greeting();
 
@@ -76,30 +73,30 @@
 
 //.......anonymous funtion.........//
 
-let go =function(){
-    console.log("anonymous fuction")
+// let go =function(){
+//     console.log("anonymous fuction")
 
-}
-go()
+// }
+// go()
 
 
 // //......IIFE.......//immidiatly invoke function expression  
 
-(
+// (
 
-    function(){
+//     function(){
 
-        console.log("IIFE")
+//         console.log("IIFE")
 
-    }
-)()
+//     }
+// )()
 
 
 //............Arrow function...../
 
-let arr = ()=>{
+// let arr = ()=>{
 
-    console.log("Arrow function")
+//     console.log("Arrow function")
 
-}
-arr()
+// }
+// arr()

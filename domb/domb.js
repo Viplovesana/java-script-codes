@@ -16,6 +16,7 @@
 //     let show = document.querySelector('#div')
 
 //     show.style.backgroundColor="red"
+//     show.style.backgroundImage="none";
 
 
 // }
@@ -31,20 +32,27 @@
     
 // }
 
-function que(){
+function common(){
 
     let box1 = document.querySelector('#box1')
-    let box2 = document.querySelector('#box2')
-    let box3 = document.querySelector('#box3')
-
     box1.style.backgroundColor='orange'
-       box2.style.backgroundColor='white'
-          box3.style.backgroundColor='green'
+   
 
-          box1.style.display='none'
-            box2.style.display='none'
-              box3.style.display='none'
+          // box1.style.display='none'
+          //   box2.style.display='none'
+          //     box3.style.display='none'
 
+
+}
+function vip(){
+  let box2 = document.querySelector('#box2')
+box2.style.backgroundImage="url(chakra.jpg )"
+
+}
+
+function rest(){
+  let box3 = document.querySelector('#box3')
+       box3.style.backgroundColor='green'
 
 }
 
