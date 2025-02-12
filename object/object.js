@@ -4,16 +4,16 @@
 
 //object = key:"value"
 
-let obj = {
+// let obj = {
 
-    name:"viplove",
-    age:23,
-    city:"bhoplal",
-    hobby:["reading","coding","dancing"],
-    greeting:function(){
-        console.log(` hello i am ${this.name} and i am ${this.age} year old`);
-    }
-}
+//     name:"viplove",
+//     age:23,
+//     city:"bhoplal",
+//     hobby:["reading","coding","dancing"],
+//     greeting:function(){
+//         console.log(` hello i am ${this.name} and i am ${this.age} year old`);
+//     }
+// }
 
 // console.log(obj); //to acces the object...
 
@@ -24,7 +24,7 @@ let obj = {
 
 // delete obj.city//to delete the key from the object 
 
-console.log(obj.hobby[1]);//to add array in object
+// console.log(obj.hobby[1]);//to add array in object
 
 // obj.greeting();
 
@@ -37,7 +37,7 @@ console.log(obj.hobby[1]);//to add array in object
 
 // };
 
-// function destructuring{
+// function destructuring(){
 
 
 // const {name,age} = student;
@@ -49,19 +49,19 @@ console.log(obj.hobby[1]);//to add array in object
 
 //.........spread......>>.......to combine two or more objects.. 
 
-// function spr(){
+function spr(){
 
+ 
 
+const student1 = {name:"viplove",age:"23"};
+const student2 ={city:"new york",grade:"a"};
 
-// const student1 = {name:"viplove",age:"23"};
-// const student2 ={city:"new york",grade:"a"};
+const combinedstudent = {...student1,...student2};
 
-// const combinedstudent = {...student1,...student2};
+console.log(combinedstudent);
 
-// console.log(combinedstudent);
-
-// }
-// spr();
+}
+spr();
 
 
 // //........normal fuction...//
@@ -100,3 +100,21 @@ console.log(obj.hobby[1]);//to add array in object
 
 // }
 // arr()
+
+// let obj ={
+
+//     name:"viplove sana",
+//     age:23,
+//     city:"bhopal",
+//     hobby:["reading","dancing","gyming",],
+//     greeting:function(){
+//         console.log(`hello i am ${this.name} and i am ${this.age}tear old`)
+
+//     }
+
+
+// }
+
+// console.log(obj)
+
+// obj.hobby="swimming"
