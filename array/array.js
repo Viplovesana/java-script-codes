@@ -46,3 +46,6 @@ document.write(abc.sort().reverse())//dessending..
 // let numbers = [3,7,1,9,2];
 
 // document.write(numbers.sort().reverse())//dessending..
+
+let abc=[2,6,1,8,4,9,7]
+document.write(abc.sort().reverse())//dessending..
