@@ -49,3 +49,8 @@ document.write(abc.sort().reverse())//dessending..
 
 let abc=[2,6,1,8,4,9,7]
 document.write(abc.sort().reverse())//dessending..
+
+
+reverse array method..........
+fruits.reverse()
+document.write(fruits)
