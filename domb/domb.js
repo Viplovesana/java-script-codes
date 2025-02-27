@@ -94,3 +94,15 @@ function rest(){
 
 // }
 
+function vip(){
+  let box2 = document.querySelector('#box2')
+box2.style.backgroundImage="url(chakra.jpg )"
+
+}
+
+function rest(){
+  let box3 = document.querySelector('#box3')
+       box3.style.backgroundColor='green'
+
+}
+
