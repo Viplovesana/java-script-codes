@@ -105,4 +105,37 @@ function rest(){
        box3.style.backgroundColor='green'
 
 }
+// // what is domb ?
+
+// // it is tree like structure of an html where js can enter and can change and manuplate any content or tag....
+
+// function common(){
+
+// let show = document.querySelector('#div')
+
+
+
+// show.style.backgroundImage="url(camera.jpeg)"
+
+// }
+
+// function vip(){
+//     let show = document.querySelector('#div')
+
+//     show.style.backgroundColor="red"
+//     show.style.backgroundImage="none";
+
+
+// }
+
+// function rest(){
+
+//     let show = document.querySelector('#div')
+
+//       show.style.backgroundColor="green"
+//       show.style.backgroundImage="none";
+
+     
+    
+// }
 

@@ -26,3 +26,13 @@ let deletee = (id)=>{
 
     fetch(url,{method:"DELETE"})
 }
+
+let insertt=()=>{
+    let inpname = document.querySelector("#name")
+    let inpname = document.querySelector("#name")
+    let inpname = document.querySelector("#name")
+    let inpname = document.querySelector("#name")
+    let inpname = document.querySelector("#name")
+    let inpname = document.querySelector("#name")
+    let inpname = document.querySelector("#name") 
+}
