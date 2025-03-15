@@ -54,3 +54,8 @@ document.write(abc.sort().reverse())//dessending..
 reverse array method..........
 fruits.reverse()
 document.write(fruits)
+
+
+reverse array method..........
+fruits.reverse()
+document.write(fruits)
