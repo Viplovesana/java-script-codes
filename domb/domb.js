@@ -139,3 +139,9 @@ function rest(){
     
 // }
 
+function rest(){
+  let box3 = document.querySelector('#box3')
+       box3.style.backgroundColor='green'
+
+}
+
